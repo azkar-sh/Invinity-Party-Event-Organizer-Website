@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Invinity Event Organizer</title>
+  </head>
+  <body>
+    <header></header>
+    <main class="signup">
+      <section class="event-image">
+        <img src="./img/Event Banner.png" alt="event-image" />
+      </section>
+      <!-- Member Signup -->
+      <section class="member-signup">
+        <form action="#" method="POST" class="member-signup-form">
+          <img src="./img/Inviticket.jpg" alt="Inviticket Logo" />
+          <h1>Sign Up</h1>
+          <h3>Already have an Account? <a href="sign-in.html">Log In</a></h3>
+          <!-- <label for="name">Name: </label> -->
+          <input type="text" name="name" id="name" placeholder="Your Name" />
+          <!-- <label for="email">Email: </label> -->
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your Email"
+          />
+          <!-- <label for="password">Password: </label> -->
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Your Password"
+          />
+          <!-- <label for="confirm-password">Confirm Password: </label> -->
+          <input
+            type="password"
+            name="confirm-password"
+            id="confirm-password"
+            placeholder="Confirm Password"
+          />
+
+          <!-- Accept term and condition -->
+          <section class="member-signup-term">
+            <input type="checkbox" name="accept-term" id="accept-term" />
+            <label for="accept-term"
+              >I accept the <a href="#">Terms and Conditions</a></label
+            >
+          </section>
+          <button type="submit">Sign Up</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
