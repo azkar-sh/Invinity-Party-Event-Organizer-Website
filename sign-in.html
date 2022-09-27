@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
     <title>Invinity Event Organizer</title>
   </head>
   <body>
@@ -13,43 +20,78 @@
       <section class="event-image">
         <img src="./img/Event Banner.png" alt="event-image" />
       </section>
-
       <!-- Member Signin -->
       <section class="member-signin">
+        
         <form action="#" method="POST" class="member-signin-form">
-          <img src="./img/Inviticket.jpg" alt="Inviticket Logo" />
-          <h1>Sign In</h1>
-          <h3>Hi, Welcome Back to Inviticket!</h3>
+          
+          <div class="signin-title">
+            <img src="./img/Inviticket.jpg" alt="Inviticket Logo" />
+            <h1>Sign In</h1>
+            <h5>Hi, Welcome back to Inviticket!</h5>
+          </div>
+          
+          <!-- Sign Up Form -->
+          <div class="form-group col">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Username"
+            />
+          </div>
+          <div class="form-group col">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Email"
+            />
+          </div>
+          <div class="form-group col">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="form-control"
+              placeholder="Password"
+            />
+          </div>
 
-          <!-- <label for="name">Name: </label> -->
-          <input type="text" name="name" id="name" placeholder="Username" />
+          <!-- Forgot Password -->
+          <div class="form-group" style="text-align: right;">
+            <a href="forgot-password.html">Forgot Password?</a>
+          </div>
 
-          <!-- <label for="email">Email: </label> -->
-          <input type="email" name="email" id="email" placeholder="Email" />
+          <button type="submit" class="btn btn-primary col" style="margin-bottom: 20px;">Submit</button>
+          
+          
+          <h5 style="text-align: center;">Or Sign In With</h5>
+          <section class="alternative-signin">
+            <a href="sign-up.html"><img src="./img/Google.png" alt="Google Icon" /></a>
+            <a href=""><img src="./img/Facebook.png"alt="Facebook Icon"/></a>
+          </section>
 
-          <!-- <label for="password">Password: </label> -->
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Password"
-          />
-
-          <h4><a href="forgot-password.html">Forgot Password?</a></h4>
-
-          <button type="submit">Sign In</button>
         </form>
+      </section>
 
-        <h5>Or Sign In With</h5>
-        <section class="alternative-signin">
-          <img src="./img/Google.png" alt="Google Icon" style="width: 50px" />
-          <img
-            src="./img/Facebook.png"
-            alt="Facebook Icon"
-            style="width: 50px"
-          />
-        </section>
       </section>
     </main>
+
+    <a href="Back to Sign Up Menu"></a>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.min.js"
+      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

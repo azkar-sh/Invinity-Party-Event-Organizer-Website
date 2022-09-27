@@ -1,5 +1,4 @@
 * {
-  /* overflow: hidden; */
   margin: 0;
   padding: 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -13,35 +12,32 @@
   height: auto;
 }
 
-/* image and form using flex */
+h1 {
+  margin: 0 !important;
+}
+
 .event-image {
   display: flex;
-  width: 70%;
+  width: 90%;
   height: 100vh;
   background: #3366ff;
   justify-content: center;
 }
 
+/* ------------- Sign Up Page ---------- */
+
+.signup-title {
+  margin: 1.5rem 0;
+}
+
 .member-signup img {
-  width: 30%;
-  margin-bottom: 2rem;
+  width: 35%;
 }
 
 .member-signup {
-  width: 30%;
+  width: 50%;
   height: 100vh;
   padding: 0 5%;
-}
-
-.member-signup h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-
-.member-signup h3 {
-  font-weight: 500;
-  margin-bottom: 2rem;
 }
 
 .member-signup-form {
@@ -50,216 +46,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.member-signup-form input {
-  font-size: 1rem;
-  padding: 15px;
-  margin-bottom: 10px;
-  background-color: #fff;
-  border: 1px solid;
-  border-radius: 10px;
-}
-
-.member-signup-term {
-  margin: 10px 0;
-}
-
-.member-signup-form button {
-  padding: 15px;
-  background-color: #3366ff;
-  border: 1px none;
-  border-radius: 10px;
-  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.418);
-  color: white;
-  cursor: pointer;
-}
-
-.member-signup-form button:hover {
-  background-color: blue;
-  color: white;
-}
-
-/* ------------- Sign In Page ---------- */
-
-.signin {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-}
-
-.member-signin img {
-  width: 30%;
-  margin-bottom: 1rem;
-}
-
-.member-signin {
-  width: 30%;
-  height: 75vh;
-  padding: 0 5%;
-  display: flex;
-  flex-direction: column;
-}
-
-.member-signin h1 {
-  font-size: 2rem;
-  font-weight: 700;
-  /* margin-bottom: 0.5rem; */
-}
-
-.member-signin h3 {
-  font-size: 1rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
-.member-signin h4 {
-  font-weight: 500;
-  margin-bottom: 1rem;
-  text-align: right;
-}
-
-.member-signin h5 {
-  font-size: 1rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-
-.member-signin-form {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.member-signin-form input {
-  font-size: 1rem;
-  padding: 15px;
-  margin-bottom: 10px;
-  background-color: #fff;
-  border: 1px solid;
-  border-radius: 5px;
-}
-
-.member-signin-term {
-  margin: 10px 0;
-}
-
-.member-signin-form button {
-  font-size: 1rem;
-  padding: 15px;
-  background-color: #3366ff;
-  border: 1px none;
-  border-radius: 5px;
-  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.418);
-  color: white;
-  margin-bottom: 1.5rem;
-  cursor: pointer;
-}
-
-.member-signin-form button:hover {
-  background-color: blue;
-  color: white;
-}
-
-.alternative-signin {
-  display: flex;
-  justify-content: center;
-}
-
-.alternative-signin img {
-  margin: auto;
-  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
-}
-
-/* Media screen Mobile for Sign In */
-@media screen and (max-width: 931px) {
-  .event-image {
-    display: none;
-  }
-
-  .member-signin {
-    width: 80%;
-    height: 75vh;
-    padding: 0 5%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .member-signin h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-
-  .member-signin h3 {
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-  }
-
-  .member-signin h4 {
-    font-weight: 500;
-    margin-bottom: 1rem;
-    text-align: right;
-  }
-
-  .member-signin h5 {
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-
-  .member-signin-form {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .member-signin-form input {
-    font-size: 1rem;
-    padding: 15px;
-    margin-bottom: 10px;
-    background-color: #fff;
-    border: 1px solid;
-    border-radius: 5px;
-  }
-
-  .member-signin-term {
-    margin: 10px 0;
-  }
-
-  .member-signin-form button {
-    font-size: 1rem;
-    padding: 15px;
-    background-color: #3366ff;
-    border: 1px none;
-    border-radius: 5px;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.418);
-    color: white;
-    margin-bottom: 1.5rem;
-    cursor: pointer;
-  }
-
-  .member-signin-form button:hover {
-    background-color: blue;
-    color: white;
-  }
-
-  .alternative-signin {
-    display: flex;
-    justify-content: center;
-  }
-
-  .alternative-signin img {
-    margin: auto;
-    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
-  }
 }
 
 /* Media screen Mobile for Sign Up */
@@ -271,55 +57,98 @@
   .member-signup {
     width: 80%;
     height: 75vh;
-    padding: 0 5%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .member-signup h1 {
-    font-size: 1.5rem;
-    font-weight: 700;
-  }
-
-  .member-signup h3 {
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 1rem;
-  }
-
-  .member-signup-form {
-    width: 100%;
-    height: 100%;
+    padding: 0 1px;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .member-signup-form input {
-    font-size: 1rem;
-    padding: 15px;
-    margin-bottom: 10px;
-    background-color: #fff;
-    border: 1px solid;
+  .member-signup-form {
+    width: 100%;
+    height: 100%;
+  }
+
+  .member-signup img {
+    width: 25%;
+  }
+}
+
+/* ------------- Sign In Page ---------- */
+
+.signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.signin-title {
+  margin: 1.5rem 0;
+}
+
+.member-signin img {
+  width: 35%;
+}
+
+.member-signin {
+  width: 50%;
+  height: 100vh;
+  padding: 0 5%;
+}
+
+.member-signin-form {
+  margin: 5px 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.alternative-signin {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+}
+
+.alternative-signin img {
+  margin-top: 20px;
+  width: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+/* Media screen Mobile for Sign In */
+@media screen and (max-width: 931px) {
+  .event-image {
+    display: none;
+  }
+
+  .member-signin {
+    width: 80%;
+    height: 75vh;
+    padding: 0 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .member-signin-form {
+    width: 100%;
+    height: 100%;
+  }
+
+  .member-signin img {
+    width: 25%;
+  }
+
+  .alternative-signin img {
+    margin-top: 20px;
+    width: 50px;
     border-radius: 10px;
-  }
-
-  .member-signup-term {
-    margin: 10px 0;
-  }
-
-  .member-signup-form button {
-    padding: 15px;
-    background-color: #3366ff;
-    border: 1px none;
-    border-radius: 10px;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.418);
-    color: white;
-    cursor: pointer;
-  }
-
-  .member-signup-form button:hover {
-    background-color: blue;
-    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
   }
 }
