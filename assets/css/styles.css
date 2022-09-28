@@ -104,6 +104,11 @@ h1 {
   padding: 10px;
 }
 
+/* -------------- Index -------------*/
+.card-event {
+  width: 20rem;
+}
+
 /* Media screen Mobile for Sign In */
 @media screen and (max-width: 768px) {
   .event-image {
