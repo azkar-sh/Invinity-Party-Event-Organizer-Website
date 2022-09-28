@@ -27,6 +27,23 @@ h1 {
   justify-content: center;
 }
 
+/* -------------- Index -------------*/
+.card-event {
+  width: 100%;
+}
+
+.event-description {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+
+.event-date {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+}
+
 /* ------------- Sign Up Page ---------- */
 
 .signup-title {
@@ -50,10 +67,6 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-/* Media screen Mobile for Sign Up */
-@media screen and (max-width: 931px) {
 }
 
 /* ------------- Sign In Page ---------- */
@@ -104,21 +117,10 @@ h1 {
   padding: 10px;
 }
 
-/* -------------- Index -------------*/
-.card-event {
-  width: 100%;
-}
-
-.event-description {
-  font-size: 16px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  letter-spacing: 1px;
-}
-
-.event-date {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 12px;
-  font-weight: 100;
+/* ------------- Booking ------------ */
+.no-border {
+  border: 0;
+  box-shadow: none;
 }
 
 /* Media screen Mobile for Sign In */
