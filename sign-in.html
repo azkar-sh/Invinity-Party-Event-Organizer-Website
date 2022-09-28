@@ -5,13 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css"
-      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
-      crossorigin="anonymous"
-    />
+     <!-- Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+     
     <title>Invinity Event Organizer</title>
   </head>
   <body>
@@ -26,13 +22,13 @@
         <form action="#" method="POST" class="member-signin-form">
           
           <div class="signin-title">
-            <img src="./img/Inviticket.jpg" alt="Inviticket Logo" />
+            <a href="index.html"><img src="./img/Inviticket.jpg" alt="Inviticket Logo" /></a>
             <h1>Sign In</h1>
             <h5>Hi, Welcome back to Inviticket!</h5>
           </div>
           
           <!-- Sign Up Form -->
-          <div class="form-group col">
+          <div class="input-group mb-3">
             <input
               type="text"
               name="name"
@@ -41,7 +37,7 @@
               placeholder="Username"
             />
           </div>
-          <div class="form-group col">
+          <div class="input-group mb-3">
             <input
               type="email"
               name="email"
@@ -50,7 +46,7 @@
               placeholder="Email"
             />
           </div>
-          <div class="form-group col">
+          <div class="input-group mb-3">
             <input
               type="password"
               name="password"
@@ -61,14 +57,15 @@
           </div>
 
           <!-- Forgot Password -->
-          <div class="form-group" style="text-align: right;">
-            <a href="forgot-password.html">Forgot Password?</a>
+          <div class="input-group mb-3 justify-content-end">
+            <a href="forgot-password.html" >Forgot Password?</a>
           </div>
 
-          <button type="submit" class="btn btn-primary col" style="margin-bottom: 20px;">Submit</button>
+          <div class="input-group mb-3">
+            <button type="submit" class="btn btn-primary col " style="margin-bottom: 20px;">Submit</button>
+          </div>
           
-          
-          <h5 style="text-align: center;">Or Sign In With</h5>
+          <h6 style="text-align: center;">Or Sign In With</h6>
           <section class="alternative-signin">
             <a href="sign-up.html"><img src="./img/Google.png" alt="Google Icon" /></a>
             <a href=""><img src="./img/Facebook.png"alt="Facebook Icon"/></a>
@@ -76,22 +73,13 @@
 
         </form>
       </section>
-
       </section>
     </main>
 
-    <a href="Back to Sign Up Menu"></a>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script
-      src="https://code.jquery.com/jquery-1.12.4.min.js"
-      integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"
-      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
-      crossorigin="anonymous"
-    ></script>
+  
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
   </body>
 </html>
